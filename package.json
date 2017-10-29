@@ -6,7 +6,7 @@
   "scripts": {
     "start": "poi",
     "build": "poi build",
-    "deploy": "gh-pages -d dist -b gh-pages"
+    "deploy": "npm run build && gh-pages -d dist -b gh-pages"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "poi": "^9.4.3"
   },
   "poi": {
+    "homepage": "./",
     "html": {
       "template": "src/index.html"
     }

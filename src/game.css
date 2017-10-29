@@ -1,0 +1,18 @@
+.board {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  align-self: stretch;
+}
+
+.enemy-zone {
+  flex: 1;
+}
+
+.typing-zone {
+  background-color: var(--light-action-color);
+  color: var(--dark-text-color);
+  padding: 15px;
+  font-size: 1.5rem;
+}

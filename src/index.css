@@ -1,0 +1,34 @@
+@import "variables.css";
+@import "home.css";
+@import "game.css";
+
+.game-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: var(--game-background);
+  color: var(--text-color);
+}
+
+.game-placeholder button {
+  border: none;
+  outline: none;
+  background-color: var(--action-color);
+  color: var(--text-color);
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.game-placeholder button:hover {
+  filter: brightness(1.2);
+}

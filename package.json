@@ -4,11 +4,14 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "poi"
+    "start": "poi",
+    "build": "poi build",
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "html-loader": "^0.5.1",
     "poi": "^9.4.3"
   },
